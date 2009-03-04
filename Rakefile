@@ -1,19 +1,5 @@
 require 'rake'
 
-begin
-  require 'jeweler'
-  Jeweler::Tasks.new do |s|
-    s.name = "active_record_random_find"
-    s.summary = %Q{Easily find a random Active Record model}
-    s.email = "mshiltonj@gmail.com"
-    s.homepage = "http://github.com/mshiltonj/active_record_random_find"
-    s.description = "TODO"
-    s.authors = ["Steven Hilton"]
-  end
-rescue LoadError
-  puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
-end
-
 require 'rake/rdoctask'
 Rake::RDocTask.new do |rdoc|
   rdoc.rdoc_dir = 'rdoc'
